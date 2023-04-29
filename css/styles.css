@@ -1,0 +1,136 @@
+:root {
+  --primary-color-text: #2e2f42;
+  --accent-color: #4d5ae5;
+  --accent-color-secondary: #f4f4fd;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-color-text);
+  font-size: 16px;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+/* --------Header-------- */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+.logo-plus {
+  color: var(--primary-color-text);
+}
+
+.menu-link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-color-text);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.mail-link,
+.phone-link {
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--accent-color);
+}
+.phone-link:hover,
+.phone-link:focus {
+  color: var(--accent-color);
+}
+.current {
+  color: var(--accent-color);
+}
+/* --------/Header-------- */
+
+/* ---------Hero-----------*/
+.hero {
+  background-color: var(--primary-color-text);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.modal-open-hero-button {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.modal-open-hero-button:hover,
+.modal-open-hero-button:focus {
+  color: var(--accent-color);
+  background-color: var(--accent-color-secondary);
+}
+.hero-button {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: var(--accent-color-secondary);
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--accent-color-secondary);
+  background-color: var(--accent-color);
+}
+/* --------/Hero---------- */
+
+/* --------SEction 1. 2. 3.------- */
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color-text);
+}
+.description {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* --------/SEction 1. 2. 3.------- */
+
+/* ---------Footer ----------*/
+.footer-style {
+  background-color: var(--primary-color-text);
+}
+.logo-plus-footer {
+  color: var(--accent-color-secondary);
+}
+.footer-desc {
+  color: var(--accent-color-secondary);
+}
+
+/* ---------/Footer ----------*/
