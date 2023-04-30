@@ -7,6 +7,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-color-text);
   font-size: 16px;
+  background-color: #ffffff;
 }
 .list {
   list-style: none;
@@ -21,6 +22,8 @@ button {
 .section-title {
   font-weight: 700;
   font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
   line-height: 1.11;
 }
 
@@ -29,7 +32,8 @@ button {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
 }
@@ -45,24 +49,26 @@ button {
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
-
+.address-link {
+  font-style: normal;
+}
 .mail-link,
 .phone-link {
   font-weight: 400;
-  font-style: normal;
+
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 .mail-link:hover,
 .mail-link:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 .phone-link:hover,
 .phone-link:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 .current {
   color: var(--accent-color);
@@ -77,11 +83,13 @@ button {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 .modal-open-hero-button {
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -90,7 +98,7 @@ button {
 .modal-open-hero-button:hover,
 .modal-open-hero-button:focus {
   color: var(--accent-color);
-  background-color: var(--accent-color-secondary);
+  background-color: #404bbf;
 }
 .hero-button {
   font-weight: 500;
@@ -107,10 +115,15 @@ button {
 /* --------/Hero---------- */
 
 /* --------SEction 1. 2. 3.------- */
+.card {
+  background-color: #ffffff;
+}
 .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  text-align: center;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--primary-color-text);
 }
@@ -118,6 +131,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.our-team {
+  background-color: #f4f4fd;
 }
 
 /* --------/SEction 1. 2. 3.------- */
