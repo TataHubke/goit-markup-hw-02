@@ -63,12 +63,8 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.mail-link:hover,
-.mail-link:focus {
-  color: #404bbf;
-}
-.phone-link:hover,
-.phone-link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
