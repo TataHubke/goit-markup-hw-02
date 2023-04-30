@@ -72,9 +72,7 @@ button {
 .phone-link:focus {
   color: #404bbf;
 }
-.current {
-  color: var(--accent-color);
-}
+
 /* --------/Header-------- */
 
 /* ---------Hero-----------*/
