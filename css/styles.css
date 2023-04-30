@@ -5,7 +5,7 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--primary-color-text);
+  color: #434455;
   font-size: 16px;
   background-color: #ffffff;
 }
@@ -24,6 +24,7 @@ button {
   font-size: 36px;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   line-height: 1.11;
 }
 
@@ -97,11 +98,11 @@ button {
 }
 .modal-open-hero-button:hover,
 .modal-open-hero-button:focus {
-  color: var(--accent-color);
   background-color: #404bbf;
 }
 .hero-button {
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--accent-color);
@@ -109,8 +110,8 @@ button {
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--accent-color-secondary);
-  background-color: var(--accent-color);
+  color: #ffffff;
+  background-color: #404bbf;
 }
 /* --------/Hero---------- */
 
