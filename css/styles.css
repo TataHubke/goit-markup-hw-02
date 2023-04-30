@@ -56,8 +56,7 @@ button {
 .address-link {
   font-style: normal;
 }
-.mail-link,
-.phone-link {
+.contact-link {
   font-weight: 400;
 
   line-height: 1.5;
